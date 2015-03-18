@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 
 public class RulesTest {
 
-    private XXXXXX rock = XXXXXX;
+    private Rock rock = new Rock();
     private XXXXXX paper = XXXXXX;
     private XXXXXX scissors = XXXXXX;
 
