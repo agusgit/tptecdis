@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 public class RulesTest {
 
     private Rock rock = new Rock();
-    private XXXXXX paper = XXXXXX;
+    private Paper paper = new Paper();
     private Scissors scissors = new Scissors();
 
     @Test
