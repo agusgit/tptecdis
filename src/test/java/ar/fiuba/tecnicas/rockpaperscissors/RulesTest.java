@@ -9,7 +9,7 @@ public class RulesTest {
 
     private Rock rock = new Rock();
     private XXXXXX paper = XXXXXX;
-    private XXXXXX scissors = XXXXXX;
+    private Scissors scissors = new Scissors();
 
     @Test
     public void rockBeatsScissors() {
