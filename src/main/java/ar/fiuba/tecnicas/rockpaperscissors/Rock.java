@@ -1,16 +1,20 @@
 package ar.fiuba.tecnicas.rockpaperscissors;
 
-public class Rock {
+public class Rock implements Choice{
 	
-	public Rock vs(Rock rockChoice){
+	public Choice vs(Choice someChoice){
+		return someChoice.vs(this);
+	}
+	
+	public Choice vs(Rock rockChoice){
 		return this;
 	}
 	
-	public Rock vs(Scissors scissorsChoice){
+	public Choice vs(Scissors scissorsChoice){
 		return this;
 	}
 	
-	public Paper vs(Paper paperChoice){
+	public Choice vs(Paper paperChoice){
 		return paperChoice;
 	}
 }
